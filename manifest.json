@@ -8,12 +8,20 @@
         "default_popup": "popup.html",
         "default_title": "Generuj hasło"
     },
+    
     "permissions": [
         "alarms",
         "activeTab",
         "clipboardWrite",
         "tabs"
         
+      ],
+      "content_scripts": [ 
+        { 
+            
+            "js": [ "jquery.min.js", "main.js" ],
+             "matches": [ "<all_urls>"]
+         }
       ]
       
 }

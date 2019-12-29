@@ -12,13 +12,13 @@ function copy() {
 }
 
 
-
-
 (function() {
     
     document.addEventListener('DOMContentLoaded',function() {
         document.getElementById("button_1").addEventListener("click", copy);
+        
     })
+
 
 
     const formInstance = document.querySelector('#generator');
