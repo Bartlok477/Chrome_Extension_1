@@ -1,0 +1,48 @@
+
+
+
+*{
+    padding: 0;
+    margin:10px 5px 10px 10px;
+}
+body{
+
+    background-color: rebeccapurple;
+    color:black;
+    font-size: 25px;
+    justify-items: center;
+    font-family: 'Muli', sans-serif;
+    
+    
+
+}
+.outer{
+    font-size: 15px;
+}
+
+
+ .input_place{
+    margin: 0px;
+}
+
+
+
+
+.button{
+    width:100px;
+    cursor: pointer;
+    margin:0;
+   
+}
+
+
+
+
+.haslo{
+    font-size: 15px;
+    margin-top:0px;
+   
+}
+.copy_button{
+    margin:0 0 20px 10px;
+}
